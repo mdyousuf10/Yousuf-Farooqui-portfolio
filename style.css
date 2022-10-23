@@ -20,6 +20,13 @@ hr{
     margin: 2rem;
 }
 
+/* Buttons */
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
 /* conntainers */
 .container{
     padding-left: 1rem;
@@ -28,6 +35,7 @@ hr{
 .container-center{
     max-width: 600px;
     margin:auto;
+    padding: 35px;
 }
 /* links*/
 .link{
