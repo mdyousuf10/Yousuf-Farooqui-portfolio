@@ -60,7 +60,6 @@ hr{
 }
 .link-secondary:hover{
     background-color: var(--primary-color);
-    color: white;
 }
 
 /* list */
