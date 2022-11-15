@@ -94,10 +94,12 @@ hr{
 .navigation .link{
     color: white;
     padding: 10px;
-
 }
 .navigation .link-active{
     font-weight: bold;
+}
+.link:hover{
+    color: var(--dark-gray);
 }
 
 /* header */
@@ -108,6 +110,10 @@ hr{
     max-width: 500px;
     display: block;
     margin: auto;
+    transition: transform .2s; /* Animation */
+}
+.hero-img:hover{
+        transform: scale(1.2);
 }
 .hero .hero-heading{
     padding-top: 1rem;
@@ -155,4 +161,8 @@ hr{
 }
 .social-icons {
     width: 40px;
+    transition: transform .2s; /* Animation */
+}
+.social-icons:hover{
+    transform: scale(1.2);
 }
